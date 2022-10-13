@@ -1,8 +1,7 @@
 (() => {
-  const EXECUTABLE_CLASS = 'class:EcomConnectPreviewMessageReceiver';
+  const EXECUTABLE_CLASS = 'class:FirstSpirit Connect for Commerce - Preview Message Receiver';
   const POST_MESSAGE_NAMESPACE = 'fcecom';
   const POST_MESSAGE_ORIGIN = '*';
-
   const debug = (...args) => console && console.debug('fcecom %o', ...args);
 
   const postToStoreFront = (topic, payload = null) => {
@@ -58,8 +57,7 @@
           break;
         }
         case 'openStoreFrontUrl': {
-          const { url } = payload;
-          postToStoreFront('openStoreFrontUrl', { url });
+          postToStoreFront('openStoreFrontUrl', payload);
           break;
         }
         case 'setContentCreatorPreviewElement': {
