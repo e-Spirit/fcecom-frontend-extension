@@ -18,8 +18,10 @@
   };
 
   WE_API.Common.addPreviewRequestHandler((FSID) => {
-    if (FSID.getStoreType() === 'sitestore' && FSID.getId() != -1)
+    if (FSID.getStoreType() === 'sitestore' && FSID.getId() != -1) {
+      WE_API.Common.setPreviewElement(FSID);
       handleRequestedPreviewElement({ pageRefId: `${FSID.getId()}`, language: FSID.getLanguage() });
+    }
   });
 
   window.addEventListener('message', (e) => {
