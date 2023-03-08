@@ -37,11 +37,6 @@
           postToServer('updatedStoreFrontUrl', { url });
           break;
         }
-        case 'createReferencePage': {
-          const { url } = payload;
-          postToServer('createReferencePage', { url });
-          break;
-        }
         default: {
           console.error(new Error(`Couldn't handle '${topic}'-topic in ContentCreator`), { message: { topic, payload } });
         }
