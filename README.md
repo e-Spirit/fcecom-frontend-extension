@@ -29,8 +29,10 @@ The frontend extension communicates with the FirstSpirit Connect for Commerce mo
 
 ## Legal Notices
 
-The Connect for Commerce Frontend API module is a product of [Crownpeak Technology GmbH](https://www.crownpeak.com),
-Dortmund, Germany. The Connect for Commerce Frontend API module is subject to the [Apache-2.0 license](https://github.com/e-Spirit/connect-for-commerce-module/blob/master/LICENSE).
+The Connect for Commerce Frontend Extension is a product of [Crownpeak Technology GmbH](https://www.crownpeak.com),
+Dortmund, Germany. The Connect for Commerce Frontend Extension is subject to the Apache-2.0 license.
+
+Details regarding any third-party software products in use but not created by Crownpeak Technology GmbH, as well as the third-party licenses and, if applicable, update information can be found in the file THIRD-PARTY.txt.
 
 ## Disclaimer
 
